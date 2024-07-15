@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&display=swap');
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Playwrite CL", cursive;
+    align-items:center;
+    background-color: pink;
+}
+
+.calendar-heading {
+    margin-bottom: 200px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.calender-container{
+    
+    border: 2px solid black;
+    background-color: white;
+    width: 300px;
+    text-align:center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    overflow: hidden;
+}
+
+.month-name{
+    margin: 0;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.day-name{
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 800;
+}
+
+.day-number{
+    font-size:80px;
+    margin:0;
+    font-weight: bold;
+}
+
+.year{
+    margin: 0;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 800;
+}
